@@ -2,6 +2,7 @@
 
 ## Os 4 estados
 * Não rastreado (untracked): O arquivo não faz parte do repositório. Ex: Novo arquivo;
+* Adicionado (Added): O arquivo foi adicionado no versionamento do repositório;
 * Modificado (modified): Significa que o arquivo esta diferente quando comparados com a última versão disponível no histórico;
 * Não modificado (unmodified): O arquivo faz parte do repositório e está consolidado;
 * Preparado (staged): Neste momento, o Git sabe que o arquivo foi modificado e agora está na área de preparação para ser consolidad;
@@ -19,10 +20,6 @@ git help <qualquer_comando_git>
 ## Configuração
 
 ### Geral
-
-As configurações do GIT são armazenadas no arquivo **.git** localizado dentro do diretório do usuário do Sistema Operacional (Ex.: Windows: C:\Users\Documents and Settings\Leonardo ou *nix /home/leonardo).
-
-As configurações realizadas através dos comandos abaixo serão incluídas no arquivo citado acima.
 
 ##### Setar usuário
 git config --global user.name "Seu Nome"
@@ -68,4 +65,7 @@ git pull
 git fetch
 	
 ### Clonar um repositório remoto já existente
-git clone git@github.com:leocomelli/curso-git.git
+git clone nome_repositorio.git
+
+### Vincular repositório local com um repositório remoto
+git remote add origin nome_repositorio.git
