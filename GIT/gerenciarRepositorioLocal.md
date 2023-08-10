@@ -10,6 +10,7 @@
 * Enviar informações para o GitHub
 
 ## Comandos básicos
+* git init
 * git status
 * git add .
 * git commit -m "comentar alteração"
