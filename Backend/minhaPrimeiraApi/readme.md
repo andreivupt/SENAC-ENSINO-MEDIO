@@ -4,7 +4,7 @@
 
 Iniciar o npm (gerenciador de pacotes do node)
 ```
-init -y
+npm init -y
 ```
 
 Instalar pacotes básicos
