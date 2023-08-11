@@ -1,5 +1,9 @@
 #Principais comandos para usar no GitBash
 
+* Abrir VSCode com a pasta atual
+```
+code .
+```
 * Criar nova pasta no terminal
 ```
 mkdir NOME_DA_PASTA
@@ -16,7 +20,11 @@ cd ..
 ```
 touch NOME_DO_ARQUIVO
 ```
-* Abrir VSCode com a pasta atual
+* Listar pastas e arquivos na pasta atual
 ```
-code .
+ls
+```
+* Listar pastas e arquivos OCULTOS na pasta atual
+```
+ls -a
 ```
