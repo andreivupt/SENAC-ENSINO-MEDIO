@@ -10,8 +10,10 @@
 * Enviar informações para o GitHub
 
 ## Comandos básicos
+* git init
 * git status
 * git add .
 * git commit -m "comentar alteração"
+* git branch -M main
 * git remote add origin nome_repositorio.git
 * git push -u origin main
